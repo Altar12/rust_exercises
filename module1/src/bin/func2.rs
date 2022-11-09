@@ -8,4 +8,10 @@
 // * Use a function to display the result
 // * Use the "{:?}" token in the println macro to display the result
 
-fn main() {}
+fn main() {
+    println!("{:?}", add(12, 24));
+}
+
+fn add(num1: i32, num2: i32) -> i32 {
+    num1 + num2
+}

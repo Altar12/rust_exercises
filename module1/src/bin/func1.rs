@@ -9,7 +9,10 @@
 // * Use the println macro to display messages to the terminal
 
 fn main() {
-
+    print("Shubham");
+    print("Singh");
 }
 
-
+fn print(text: &str) {
+    println!("{text}");
+}
